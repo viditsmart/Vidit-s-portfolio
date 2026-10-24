@@ -108,7 +108,7 @@ export default function PortfolioPage() {
         <div className={`p-8 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-[#FFFFFF] border-[#E2E8F0] shadow-sm'}`}>
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-2">
             <div>
-              <h3 className="text-2xl font-bold text-[#F8FAFC]">University of Texas at Dallas</h3>
+              <h3 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>University of Texas at Dallas</h3>
               <p className="text-[#38BDF8] font-medium text-lg">Bachelor of Science in Computer Science</p>
             </div>
             
@@ -138,7 +138,7 @@ export default function PortfolioPage() {
       {/* 3. SKILLS SECTION */}
       <section id="skills" className="min-h-screen py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center">
         <div className="mb-12">
-          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Skills & Expertise</h2>
+          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>kills & Expertise</h2>
           
         </div>
 
@@ -159,31 +159,31 @@ export default function PortfolioPage() {
           <div className={`p-6 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-white border-[#E2E8F0] shadow-sm'}`}>
             <h3 className="text-xl font-semibold mb-4 text-[#38BDF8]">Frameworks & Tools</h3>
             <div className="flex flex-wrap gap-3">
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">React</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Node.js</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Git</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Github</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Google Cloud Firestore</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>React</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Node.js</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Git</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Github</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Google Cloud Firestore</span>
               
             </div>
           </div>
-          <div className="bg-[#1E293B]/40 border border-[#334155] p-6 rounded-2xl">
+          <div className={`p-6 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-white border-[#E2E8F0] shadow-sm'}`}>
             <h3 className="text-xl font-semibold mb-4 text-[#38BDF8]">Developer Concepts</h3>
             <div className="flex flex-wrap gap-3">
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Object-Oriented Design</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Data Structures</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Algorithms</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Software Testing</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Debugging</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">CI/CD Workflows</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Object-Oriented Design</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Data Structures</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Algorithms</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Software Testing</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Debugging</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>CI/CD Workflows</span>
             </div>
           </div>
-          <div className="bg-[#1E293B]/40 border border-[#334155] p-6 rounded-2xl">
+          <div className={`p-6 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-white border-[#E2E8F0] shadow-sm'}`}>
             <h3 className="text-xl font-semibold mb-4 text-[#38BDF8]">Libraries and Analytics</h3>
             <div className="flex flex-wrap gap-3">
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">NumPy</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Pandas</span>
-              <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">Matplotlib</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>NumPy</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Pandas</span>
+              <span className={`px-3 py-1.5 rounded-lg text-sm border ${darkMode ? 'bg-[#1E293B] text-slate-300 border-[#334155]' : 'bg-slate-100 text-[#0F172A] border-[#E2E8F0]'}`}>Matplotlib</span>
             </div>
           </div>
         </div>
