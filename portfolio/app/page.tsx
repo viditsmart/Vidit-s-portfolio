@@ -66,7 +66,7 @@ export default function PortfolioPage() {
           
           {/* Left Column: Text & CTA */}
           <div className="text-left space-y-6">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#F8FAFC]">
+            <h1 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>
               Vidit Sharma
             </h1>
             <p className={`text-base md:text-lg leading-relaxed ${darkMode ? 'text-slate-300' : 'text-[#475569]'}`}>
@@ -138,7 +138,7 @@ export default function PortfolioPage() {
       {/* 3. SKILLS SECTION */}
       <section id="skills" className="min-h-screen py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center">
         <div className="mb-12">
-          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>kills & Expertise</h2>
+          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Skills & Expertise</h2>
           
         </div>
 
