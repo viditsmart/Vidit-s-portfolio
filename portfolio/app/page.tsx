@@ -131,7 +131,7 @@ export default function PortfolioPage() {
       {/* 3. SKILLS SECTION */}
       <section id="skills" className="min-h-screen py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center">
         <div className="mb-12">
-          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>kills & Expertise</h2>
+          <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Skills & Expertise</h2>
           
         </div>
 
