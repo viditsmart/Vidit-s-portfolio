@@ -85,6 +85,12 @@ export default function PortfolioPage() {
               <p className="text-[#38BDF8] font-medium text-lg">Bachelor of Science in Computer Science</p>
             </div>
             
+            <div className="text-left md:text-right">
+              <span className="inline-block bg-[#1E293B] text-slate-200 px-3 py-1 rounded-lg text-sm font-medium border border-[#334155]">
+                Expected Graduation: May 2029
+              </span>
+              
+            </div>
           </div>
 
           {/* Relevant Coursework */}
