@@ -84,12 +84,7 @@ export default function PortfolioPage() {
               <h3 className="text-2xl font-bold text-[#F8FAFC]">University of Texas at Dallas</h3>
               <p className="text-[#38BDF8] font-medium text-lg">Bachelor of Science in Computer Science</p>
             </div>
-            <div className="text-left md:text-right">
-              <span className="inline-block bg-[#1E293B] text-slate-200 px-3 py-1 rounded-lg text-sm font-medium border border-[#334155]">
-                Expected Graduation: May 2029
-              </span>
-              <p className="text-slate-400 text-sm mt-1">Cumulative GPA: 3.398</p>
-            </div>
+            
           </div>
 
           {/* Relevant Coursework */}
