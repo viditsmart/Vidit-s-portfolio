@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function PortfolioPage() {
   const [darkMode, setDarkMode] = useState(true);
   return (
-    <main className={`min-h-screen transition-colors duration-300 relative ... ${darkMode ? 'bg-[#0F172A] text-[#F8FAFC]' : 'bg-[#F8FAFC] text-[#0F172A]'}`}>
+    <main className={`min-h-screen transition-colors duration-300 relative selection:bg-[#38BDF8] selection:text-[#0F172A] ${darkMode ? 'bg-[#0F172A] text-[#F8FAFC]' : 'bg-[#F8FAFC] text-[#0F172A]'}`}>
       
       {/* 1. STICKY NAVIGATION BAR */}
       <header className="fixed top-0 left-0 w-full z-50 bg-[#0F172A]/85 backdrop-blur-md border-b border-[#1E293B]">
@@ -34,25 +34,25 @@ export default function PortfolioPage() {
               </svg>
             </a>
 
-            {/* THEME TOGGLE BUTTON */}
+            {/* LIGHT/DARK MODE TOGGLE BUTTON */}
             <button 
               onClick={() => setDarkMode(!darkMode)}
-              className={`p-2.5 rounded-xl border transition flex items-center justify-center ${darkMode ? 'bg-[#1E293B] border-[#334155] text-yellow-400 hover:bg-[#334155]' : 'bg-slate-100 border-slate-200 text-slate-800 hover:bg-slate-200'}`}
+              className={`p-2 rounded-xl border transition flex items-center justify-center ${darkMode ? 'bg-[#1E293B] border-[#334155] text-yellow-400 hover:bg-[#334155]' : 'bg-white border-[#E2E8F0] text-amber-500 hover:bg-slate-100 shadow-sm'}`}
               aria-label="Toggle Theme"
             >
               {darkMode ? (
-                /* Sun Icon for Light Mode */
+                /* Sun Icon */
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <circle cx="12" cy="12" r="5" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
                 </svg>
               ) : (
-                /* Moon Icon for Dark Mode */
+                /* Moon Icon */
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
                 </svg>
               )}
-            </button>
+            </button>  
           </div>
 
           
@@ -69,7 +69,7 @@ export default function PortfolioPage() {
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#F8FAFC]">
               Vidit Sharma
             </h1>
-            <p className="text-slate-300 text-base md:text-lg leading-relaxed max-w-lg">
+            <p className={`text-base md:text-lg leading-relaxed max-w-lg ${darkMode ? 'text-slate-300' : 'text-[#475569]'}`}>
               Intro: I'm Vidit Sharma, a passionate beginner developer and problem-solver. From building independent projects to pushing my limits at a hackathon, I love the logic of coding just as much as I love biking outdoors or gaming. I'm always eager to learn, build, and grow.
             </p>
             <div>
@@ -105,7 +105,7 @@ export default function PortfolioPage() {
         </div>
 
         {/* Education Card */}
-        <div className="bg-[#1E293B]/40 border border-[#334155] p-8 rounded-2xl">
+        <div className={`p-8 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-white border-[#E2E8F0] shadow-sm'}`}>
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-2">
             <div>
               <h3 className="text-2xl font-bold text-[#F8FAFC]">University of Texas at Dallas</h3>
@@ -143,7 +143,7 @@ export default function PortfolioPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-[#1E293B]/40 border border-[#334155] p-6 rounded-2xl">
+          <div className={`p-6 rounded-2xl border transition ${darkMode ? 'bg-[#1E293B]/40 border-[#334155]' : 'bg-white border-[#E2E8F0] shadow-sm'}`}>
             <h3 className="text-xl font-semibold mb-4 text-[#38BDF8]">Languages</h3>
             <div className="flex flex-wrap gap-3">
               <span className="bg-[#1E293B] text-slate-200 px-3.5 py-1.5 rounded-lg text-sm font-medium border border-[#334155]">C++</span>
