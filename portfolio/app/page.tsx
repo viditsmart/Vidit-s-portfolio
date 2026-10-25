@@ -309,6 +309,10 @@ export default function PortfolioPage() {
         </div>
         
       </section>
+
+      <footer className={`py-8 px-8 max-w-7xl mx-auto text-center ${darkMode ? 'text-slate-400' : 'text-[#475569]'}`}>
+        <p className="text-sm">&copy; {new Date().getFullYear()} Vidit Sharma</p>
+      </footer>
     </main>
   );
 }
