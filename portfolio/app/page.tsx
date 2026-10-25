@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Vidit Sharma | Computer Science Portfolio",
+  description: "Software Developer & UTD Computer Science Student",
+};
+
 'use client';
 
 import { useState } from 'react';
