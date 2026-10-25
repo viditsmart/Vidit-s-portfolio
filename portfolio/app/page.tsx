@@ -129,7 +129,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* 3. SKILLS SECTION */}
-      <section id="skills" className="min-h-screen py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center">
+      <section id="education" className="min-h-screen py-32 px-8 max-w-7xl mx-auto flex flex-col justify-center">
         <div className="mb-12">
           <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Skills & Expertise</h2>
           
@@ -183,7 +183,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* 4. PROJECTS SECTION */}
-      <section id="projects" className="min-h-screen py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center">
+      <section id="projects" className="min-h-screen py-32 px-8 max-w-7xl mx-auto flex flex-col justify-center">
         <div className="mb-12">
           <h2 className={`text-3xl font-bold tracking-tight mb-3 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Projects</h2>
           <p className={darkMode ? 'text-slate-400' : 'text-[#475569]'}>A showcase of my recent backend, data analysis, and full-stack development work.</p>
@@ -283,7 +283,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* 5. CONTACT SECTION */}
-      <section id="contact" className="min-h-[70vh] py-24 px-8 max-w-7xl mx-auto flex flex-col justify-center items-center text-center border-t border-[#1E293B]">
+      <section id="contact" className="min-h-screen py-32 px-8 max-w-7xl mx-auto flex flex-col justify-center items-center text-center border-t border-[#1E293B]">
         <h2 className={`text-3xl font-bold tracking-tight mb-4 ${darkMode ? 'text-[#F8FAFC]' : 'text-[#0F172A]'}`}>Get In Touch</h2>
         
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
